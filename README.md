@@ -1,8 +1,8 @@
 <div align="center">
 
-# 🌉 Synapse
+# 🧠 Synapse
 
-**连接人类意图与 AI 执行的上下文神经桥**
+**连接人类意图与 AI 执行的神经突触**
 
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white)](https://www.python.org/)
 [![PyQt5](https://img.shields.io/badge/GUI-PyQt5-41CD52?style=flat-square&logo=qt&logoColor=white)](https://riverbankcomputing.com/software/pyqt/)
@@ -17,18 +17,18 @@
 
 ## 📖 简介 (Introduction)
 
-**Bridge** 是一个专为 **"Human -> Web LLM -> AI Editor"** 工作流设计的上下文序列化工具。
+**Synapse** 是一个专为 **"Human -> Web LLM -> AI Editor"** 工作流设计的上下文序列化工具。
 
-在 AI 辅助编程的时代，我们经常需要在 Web 端大模型（如 Gemini 1.5 Pro, GPT-4o, Claude 3.5）和本地 IDE（如 Trae, Cursor）之间反复横跳。Bridge 解决了**“如何让 Web LLM 瞬间看懂我的本地项目”**以及**“如何让 LLM 输出 IDE 能直接执行的代码”**这两个核心痛点。
+在 AI 辅助编程的时代，我们经常需要在 Web 端大模型（如 Gemini 1.5 Pro, GPT-4o, Claude 3.5）和本地 IDE（如 Trae, Cursor）之间反复横跳。Synapse 解决了**“如何让 Web LLM 瞬间看懂我的本地项目”**以及**“如何让 LLM 输出 IDE 能直接执行的代码”**这两个核心痛点。
 
 它不仅仅是一个代码打包器，它是一个**协议转换器**。它将本地代码仓库转换为架构师视图（Symbol Map），并强制 LLM 输出标准化的施工指令（Spec）。
 
 ## 📸 运行截图 (Screenshot)
 
 <div align="center">
-  <img src="screenshot.png" alt="Bridge UI Screenshot" width="800">
+  <img src="screenshot.png" alt="Synapse UI Screenshot" width="800">
   <br>
-  <em>Bridge 的极简主义控制台界面</em>
+  <em>Synapse 的极简主义控制台界面</em>
 </div>
 
 ## ✨ 核心特性 (Key Features)
@@ -45,7 +45,7 @@
 
 ```mermaid
 graph LR
-    A["👨‍💻 人类开发者"] -->|"1. 选择文件 & 描述需求"| B("Bridge 控制台")
+    A["👨‍💻 人类开发者"] -->|"1. 选择文件 & 描述需求"| B("Synapse 控制台")
     B -->|"2. 生成 XML 数据包"| C{"系统剪贴板"}
     C -->|"3. 粘贴 (Ctrl+V)"| D["☁️ Web LLM (Gemini/GPT)"]
     D -->|"4. 分析 & 生成 Spec"| E["📝 施工指令"]
