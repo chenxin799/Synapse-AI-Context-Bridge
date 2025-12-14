@@ -27,8 +27,11 @@
 
 ## 📸 运行截图 (Screenshot)
 
-![Synapse UI Screenshot](screenshot.png)
-*Synapse 的极简主义控制台界面*
+<div align="center">
+  <img src="screenshot.png" alt="Synapse UI Screenshot" width="800" style="border-radius: 10px; box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);">
+  <br>
+  <em style="display: block; margin-top: 8px;">Synapse 的极简主义控制台界面</em>
+</div>
 
 ## ✨ 核心特性 (Key Features)
 
@@ -56,9 +59,7 @@ graph LR
 
 ## 📂 项目结构 (Structure)
 
-Plaintext
-
-```
+```plaintext
 Synapse/
 ├── synapse_ui.py      # 主程序入口 (GUI)
 ├── bridge.py          # 核心逻辑与协议层
@@ -73,17 +74,13 @@ Synapse/
 
 确保你的电脑已安装 Python 3.8+。
 
-Bash
-
-```
+```bash
 pip install -r requirements.txt
 ```
 
 ### 2. 启动 Synapse
 
-Bash
-
-```
+```bash
 python synapse_ui.py
 ```
 
@@ -105,4 +102,4 @@ python synapse_ui.py
 
 ## 📄 许可证 (License)
 
-本项目采用 [MIT License](https://www.google.com/search?q=LICENSE) 开源。
+本项目采用 [MIT License](https://opensource.org/licenses/MIT) 开源。
