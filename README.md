@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌉 Bridge
+# 🌉 Synapse
 
 **连接人类意图与 AI 执行的上下文神经桥**
 
